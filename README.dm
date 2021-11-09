@@ -1,9 +1,10 @@
-#진행사항
+#Progress
 github page - main.html -> index.html rename
 
-music playlist -> shopping 주제 변경 
-- main layout 재구축 (기획발표 자료 만들기)
-- index.html(main) id, class 재정의(수정)
+music playlist -> C2C recode sale Website change
+- project planning(presentation)
+- main layout rebuild
+- index.html(main) id, class redefinition(수정)
 - login/singin page create
 
 
