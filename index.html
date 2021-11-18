@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="Author" content="MAIN">
-    <title>OASIS - (My Best Music List)</title>
+    <title>CAT-RECODE</title>
     <link rel="stylesheet" href="main.css">
 
 
@@ -13,108 +13,58 @@
 </head>
 <body>
     <header>
-        <div id="login_layout">                 <!--상단 로그인 btn 레이아웃-->
-            <ul class="list">
-                <li class="login_a_layout">
-                    <a href="">JOIN</a>
-                </li>
-                <li class="login_a_layout">
-                    <a href="">LOGIN</a>
-                </li>
+        <a href="index.html"> <img src="img/title_logo_white.PNG" alt="title logo"></a>
+        <nav>
+            <ul>
+                <li>about</li>
+                <li>vinyl</li>
+                <li>cd</li>
+                <li>casette</li>
+                <li>artist</li>
             </ul>
-        </div>
-        <div id="logo_layout_background">
-            <div id="logo_center_layout">             <!--margin set - layout center-->
-                <a id="logo_href" href="index.html">
-                    <img id="logo_img" src="img/text_logo.png">
-                </a>
+        </nav>
+        
+        <div id="top_rg">
+            <div id="search-box">
+                <input type="text" placeholder="Search">
+                <button><img src="" alt=""></button>    
             </div>
-        </div>
+            <ul>
+                <li><a href=""><img src="" alt="메시지"></a></li>
+                <li><a href=""><img src="" alt="유저 정보 네비게이션"></a></li>
+            </ul>
+        </div> 
     </header>
-    <nav id="nav_list_layout">                                           <!--nav list-->
-        <ul id="nav_ul_set">
-            <li class="nav_set">
-                <a href="">TODAY PICK</a>
-            </li>
-            <li class="nav_set"> 
-                <a href="">THEME MUSIC</a>
-            </li>
-            <li class="nav_set">
-                <a href="">GENRE</a>
-            </li>
-            <li class="nav_set">
-                <a href="">ARTIST</a>
-            </li>
-            <li class="nav_set">
-                <a href="">MY LIST</a>
-            </li>
-        </ul>
-    </nav>
+    <body>
+        <div id="main_contents">   
+            <div id="block_contents">
+                <!--inline block_layout-->
+                <div id="page_count">
 
-    <div id="main_body_layout">
-        <section id="user_playing_layout">       <!--player layout 좌측 레이아웃-->
-            <div id="user_info">                         <!--playing info  playing_album_img_test.jpg-->
-                <div id="user_layout">
-                    <div id="user_top">
-                        <a href="">
-                            <h3 id="user_name">감자도리</h3>
-                            <h5>point. 1000</h5>
-                        </a>
-                    </div>
-                    <div id="user_list">
-
+                </div>
+            </div>
+            <div id="checked_list">
+                <div id="sale list_item">
+                    <a href=""><img src="img/Pink Floyd – The Dark Side Of The Moon.jpg" alt="상품 이미지 링크"></a>
+                    
+                    <div class="sale item_info">
+                        <!--inline-->
+                        <div id="left_info">
+                            <!--block-->
+                            <a href=""><p>앨범 타이틀</p></a>
+                            <a href=""><p>아티스트</p></a>
+                            <p>가격</p>
+                        </div>
+                        <div id="right_info">
+                            <!--block-->
+                            <p>vinyl</p>
+                            <p>NM</p>
+                            <p>판매자</p>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div id="user_play_list_layout">                       <!--play list-->
-                <div>
-                    <h2>PLAY LIST🎧</h2>
-                    <ol class="fonts_set">
-                        <li><a href="">
-                            busy guy - 미노이 (DA DA! - EP)
-                        </a></li>
-                        <li><a href="">
-                            tilte - artist (album)
-                        </a></li>
-                        <li><a href="">
-                            tilte - artist (album)
-                        </a></li>
-                        <!--유저 play list 생성-->
-                    </ol>
-                </div>
-            </div>
-        </section>
-
-        <section id="main_contents_layout">         <!--메인 콘텐츠 레이아웃 https://www.youtube.com/embed/v7bnOxV4jAc?controls=0-->
-            <div id="iframe_layout"><iframe src="" tiles="라일락 - [아이유, IU 5th Album 'LAILAC']" width="740px" height="460px"></iframe></div>  <!--실행중인 음악 비디오-->
-            
-            <div id="main_custon_list_layout">       <!--like theme pick | Aritst News 리스트 레이아웃-->
-                <div class="boder_set">
-                    <!--like theme pick - 카드 이미지 좌우 스크롤 리스트 구현-->
-                </div>
-                <div class="boder_set">
-                    <!--Aritst News - 카드 방식 자동 스크롤 리스트 구현-->
-                </div>
-            </div>
-
-            <div id="notice_board_layout">          <!--커뮤니티 레이아웃-->
-                <div class="boder_set">             <!--공지게시판-->
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-                <div class="boder_set">             <!--자유게시판-->
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-    </div>
+        </div>
+    </body>
 </body>
 </head>
