@@ -56,6 +56,47 @@ ul {
     padding: 15px 10px;
 }
 
+
+
+
+/*유저 정보 네비게이션 수정필요*/
+.dropdown{
+    position: relative;
+}
+.dropdown_menu {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.dropdown_content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
+}
+.dropdown_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+.dropdown_content {
+    display: none;
+}
+.dropdown_menu:hover:not(.home){
+    background-color: darkorange;
+    color: white;
+}
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+.dropdown_content a:hover {background-color: #f1f1f1}
+
+
+
+
+
 #main_contents {
     position: relative;
     top: -4px;
@@ -64,6 +105,12 @@ ul {
     height: 711px;
     background-color: #333333;
     text-align: center;
+}
+#main_contents_wrapper {
+    display: inline-block;
+    height: auto;   
+    width: 1442.880px;
+    height:711px;
 }
 #contents {
     display: inline-block;
@@ -90,4 +137,49 @@ ul {
 }
 #view_list {
     text-align: left;
+    width: 102%;
+    margin: 0 auto;
+}
+#view_list > h2 {
+    position: relative;
+    top: -10px;
+    margin: 0;
+    font-size: 24px;
+    color: #f2f2f2;
+}
+#view_list_layout {
+    display: inline-block;
+    position: relative;
+    left: -23px;
+}
+
+.sale_item {
+    display:inline-block;
+    width: 200px;
+    padding: 10px 20px;
+    color: #f2f2f2;
+
+}
+.item_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+.item_info {
+    display: inline;
+}
+.left_info {
+    display: block;
+    float: left;
+}
+.right_info {
+    display: block;
+    float: right;
+    text-align: right;
+}
+.item_p {
+    margin: 2px;
+}
+#price {
+    font-weight: bold;
 }
