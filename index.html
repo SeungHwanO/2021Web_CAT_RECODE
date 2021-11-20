@@ -13,58 +13,44 @@
 </head>
 <body>
     <header>
-        <a href="index.html"> <img src="img/title_logo_white.PNG" alt="title logo"></a>
-        <nav>
-            <ul>
-                <li>about</li>
-                <li>vinyl</li>
-                <li>cd</li>
-                <li>casette</li>
-                <li>artist</li>
-            </ul>
-        </nav>
+        <a id="a_logo" href="index.html" target="_blank">
+            <img id="title_logo" src="img/title_logo_white.PNG" alt="title logo">
+        </a>
+        <ul class="nav">
+
+            <li><a href="#about">about</a></li>
+            <li><a href="#vinyl">vinyl</a></li>
+            <li><a href="#cd">cd</a></li>
+            <li><a href="#casette">casette</a></li>
+            <li><a href="#artist">artist</a></li>
+        
+        </ul>
+          
         
         <div id="top_rg">
-            <div id="search-box">
-                <input type="text" placeholder="Search">
-                <button><img src="" alt=""></button>    
-            </div>
             <ul>
-                <li><a href=""><img src="" alt="메시지"></a></li>
-                <li><a href=""><img src="" alt="유저 정보 네비게이션"></a></li>
+                <li><a href=""><img src="img/message_icon.png" alt="메시지"></a></li>
+                <li><a href=""><img src="img/user_icon.png" alt="유저 정보 네비게이션"></a></li>
             </ul>
         </div> 
     </header>
-    <body>
-        <div id="main_contents">   
-            <div id="block_contents">
-                <!--inline block_layout-->
-                <div id="page_count">
-
-                </div>
+    <div id="main_contents">
+        <div id = "contents">
+            <div id = "my_contents">
+                <img id = "news_contents"src="img/news.jpg" alt="news">
+                <img class ="my_contents" src="img/my_sale.jpg" alt="my sale">
+                <img class ="my_contents" src="img/my_like_list.jpg" alt="my like list">
+                <ul class ="count">
+                    <li><img class="count_box" src="img/count_box.png" alt=""></li>
+                    <li><img class="count_box" src="img/count_box.png" alt=""></li>
+                </ul>
             </div>
-            <div id="checked_list">
-                <div id="sale list_item">
-                    <a href=""><img src="img/Pink Floyd – The Dark Side Of The Moon.jpg" alt="상품 이미지 링크"></a>
-                    
-                    <div class="sale item_info">
-                        <!--inline-->
-                        <div id="left_info">
-                            <!--block-->
-                            <a href=""><p>앨범 타이틀</p></a>
-                            <a href=""><p>아티스트</p></a>
-                            <p>가격</p>
-                        </div>
-                        <div id="right_info">
-                            <!--block-->
-                            <p>vinyl</p>
-                            <p>NM</p>
-                            <p>판매자</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
+                
         </div>
-    </body>
+        <div id = "view_list">
+            <h3>최근 본 상품</h3>
+        </div>
+    </div>
 </body>
 </head>
