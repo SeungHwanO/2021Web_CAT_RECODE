@@ -3,6 +3,17 @@ body {
     
     margin: 0;
 }
+button {
+    background-color: transparent !important;
+    cursor: pointer;
+    outline: none;
+    color: #f2f2f2;
+    width: 100%;
+    height: 100%;
+    padding: none;
+    border: none;
+}
+
 
 header {
     position: static;
@@ -74,7 +85,8 @@ ul {
 }
 #sale_container {
     display: inline-block;
-    margin-top: 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     
 }
 
@@ -84,10 +96,75 @@ ul {
 .sale_img {
     width: 400px;
     margin-right: 40px;
+    filter: drop-shadow(5px 5px 5px #000);
 }
 #sale_info_layout {
     display: inline-block;
     vertical-align: top;
     text-align: left;
     padding: 0;
+    height: 400px;
+    width: 500px;
+}
+#sale_info > h2 {
+    margin: 0 0 20px 0;
+}
+#sale_info > h1 {
+    margin: 0 0 20px 0;
+}
+
+#info_wrapper {
+    display: inline-flex;
+}
+.box_set {
+    display: inline-block;
+    padding-right: 50px;
+    border-right: 25px;
+    margin-right: 25px;
+   
+}
+.info {
+    display: block;
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.info_main {
+    display: block;
+    margin-bottom: 15px;
+    font-size:14px
+}
+
+
+#ad_container {
+    display: block;
+    background-color: rgb(77, 77, 77);
+}
+
+
+.btn {
+    display: inline-block;
+    height: 56px;
+    width: 140px;
+}
+#wish {
+    background-color: black;
+    border-radius: 5px;
+}
+#message {
+    background-color: #595959;
+    border-radius: 5px;
+    
+}
+
+#link_box {
+    display: inline-block;
+    width: 286px;
+    position: relative;
+    top: 5px;
+    background-color: moccasin;
+}
+#link {
+    color: black;
+    
 }
