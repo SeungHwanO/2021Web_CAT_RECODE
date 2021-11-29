@@ -1,0 +1,24 @@
+a{ text-decoration: none; color: #000000 }
+body { 
+    text-align: center;
+    margin: 0;
+}
+#sale_wrapper {
+    display: inline-block;
+    width: 1442.88px;
+}
+
+
+#sale_img_layout {
+    text-align: left;
+
+}
+.sale_img {
+    display: inline-block;
+    text-align: left;
+    width: 400px;
+}
+
+#sale_info_wrapper {
+    display: inline-block;
+}
