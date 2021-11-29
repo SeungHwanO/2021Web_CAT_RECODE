@@ -5,27 +5,86 @@
     <meta name="Author" content="SALE">
     <title>CAT-RECODE</title>
     <link rel="stylesheet" href="sale_page.css">
+    
 </head>
 <body>
-    <div id="sale_wrapper">
-        <div class="sale_img_layout">
-            <img class="sale_img" src="img/beatles-abbeyroad-square-reuters-applecorps.jpg" alt="상품 사진">
-        </div>
-        <div id="sale_info_wrapper">
-            <div id="title_info">    
-                <h2>상품 이름</h3>
-                <h1>000,000 원</h1>
-            </div>
-            
-            <div id="list_wrapper">
-                <div class="cst_li">
-                    <div class="name">아티스트</div>
-                    <div class="info">비틀즈</div>
-                </div>
-            </div>
-        </div>
+
+    <header>
+        <a id="a_logo" href="index.html" target="_blank">
+            <img id="title_logo" src="img/title_logo_white.PNG" alt="title logo">
+        </a>
+        <ul id="z_index1" class="nav">
+
+            <li><a class = "top_li" href="#about">about</a></li>
+            <li><a class = "top_li" href="#vinyl">vinyl</a></li>
+            <li><a class = "top_li" href="#cd">cd</a></li>
+            <li><a class = "top_li" href="#casette">casette</a></li>
+            <li><a class = "top_li" href="#artist">artist</a></li>
         
+        </ul>
+          
+        
+        <ul id="top_rg">
+            <li><a href=""><img src="img/message_icon.png" alt="메시지"></a></li>
+            <li><a href="login.html"><img src="img/user_icon.png" alt="유저 정보 네비게이션"></a></li>
+        </ul>
+
+    </header>
+
+    <div id="setting">
+        <div id="sale_container">
+            
+            <!--상품 이미지-->
+            <div class="sale_img_layout">
+                <img class="sale_img" src="img/beatles-abbeyroad-square-reuters-applecorps.jpg" alt="상품 사진">
+            </div>
+
+            <!--우측 박스-->
+            <div id="sale_info_layout">
+                <div id="sale_info">    
+                    <h2>상품 이름</h3>
+                    <h1>000,000 원</h1>
+                </div>
+                <div id="info_wrapper">
+                    <div class="artist_box">
+                        <div class="info">아티스트</div>
+                        <div id="artist" class="info">비틀즈</div>
+                    </div>
+                    
+                    <div class="album_box">
+                        <div class="info">앨범</div>
+                        <div id="album" class="info">abbeyroad</div>
+                    </div>
+                    
+                    <div class="state_box">
+                        <div class="info">state</div>
+                        <div id="state" class="info">NM</div>
+                    </div>
+                </div>
+                <div id="btn_layout">
+                    <div id="wish" class="btn">
+                        <button>
+                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTcuMDA1IDEuMDQ1aC4yMzNjLjI4LjIyOC41MzcuNDkuNzYyLjc3Ny4yMjUtLjI4OC40ODEtLjU0OS43NjItLjc3N2guMjMzYTYuMTYgNi4xNiAwIDAgMC0uMDktLjExM0M5LjY4NC4zNDQgMTAuNjI4IDAgMTEuNiAwIDE0LjA2NCAwIDE2IDIuMTEgMTYgNC43OTZjMCAzLjI5Ni0yLjcyIDUuOTgxLTYuODQgMTAuMDYyTDggMTZsLTEuMTYtMS4xNTFDMi43MiAxMC43NzcgMCA4LjA5MiAwIDQuNzk2IDAgMi4xMSAxLjkzNiAwIDQuNCAwYy45NzIgMCAxLjkxNi4zNDQgMi42OTUuOTMyYTYuMTYgNi4xNiAwIDAgMC0uMDkuMTEzeiIvPgo8L3N2Zz4K" width="16" height="16" alt="찜 아이콘">
+                            <span>찜</span>
+                        </button>
+                    </div>
+                    <div id="message" class="btn">
+                        <button>
+                            <img src="" alt="">
+                            <span>구매문의</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
     </div>
+
+    
+
+        
 </body>
 </html>
 
