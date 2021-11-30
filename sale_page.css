@@ -85,9 +85,10 @@ ul {
 }
 #sale_container {
     display: inline-block;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 40px;
-    
+    position: relative;
+    left: 82px;
 }
 
 .sale_img_layout {
@@ -95,7 +96,6 @@ ul {
 }
 .sale_img {
     width: 400px;
-    margin-right: 40px;
     filter: drop-shadow(5px 5px 5px #000);
 }
 #sale_info_layout {
@@ -105,9 +105,11 @@ ul {
     padding: 0;
     height: 400px;
     width: 500px;
+    position: relative;
+    left: 30px
 }
 #sale_info > h2 {
-    margin: 0 0 20px 0;
+    margin: 0 0 10px 0;
 }
 #sale_info > h1 {
     margin: 0 0 20px 0;
@@ -115,23 +117,26 @@ ul {
 
 #info_wrapper {
     display: inline-flex;
+    position: relative;
+    top: 25px;
+    left: 10px;
 }
 .box_set {
     display: inline-block;
-    padding-right: 50px;
+    padding-right: 20px;
     border-right: 25px;
     margin-right: 25px;
    
 }
 .info {
     display: block;
-    color: rgb(153, 153, 153);
+    color: #999999;
     font-size: 14px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 .info_main {
     display: block;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size:14px
 }
 
@@ -142,10 +147,17 @@ ul {
 }
 
 
+
+#btn_layout {
+    position: relative;
+    top: 50px;
+    left: -5px;
+}
 .btn {
     display: inline-block;
     height: 56px;
     width: 140px;
+    margin: 5px;
 }
 #wish {
     background-color: black;
@@ -159,10 +171,11 @@ ul {
 
 #link_box {
     display: inline-block;
-    width: 286px;
+    width: 297px;
     position: relative;
     top: 5px;
-    background-color: moccasin;
+    background-color: #b9b9b9;
+    margin: 5px;
 }
 #link {
     color: black;
@@ -191,7 +204,7 @@ ul {
     border-bottom: 1px solid #595959;
 }
 #text_box {
-    white-space:pre;
+    white-space:pre-line;
     line-height: 2;
     text-align: left;
     padding: 15px 10px;
