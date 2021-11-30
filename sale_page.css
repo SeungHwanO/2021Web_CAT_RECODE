@@ -168,3 +168,31 @@ ul {
     color: black;
     
 }
+
+
+
+#info_container {
+    display: block;
+    text-align: center;
+}
+#box {
+    display: inline-block;
+    text-align: center; 
+    width:945px;
+}
+#title {
+    font-size:18;
+    text-align: left;
+}
+#title > p {
+    font-size: 18px;
+    margin: 0;
+    padding: 18px 0;
+    border-bottom: 1px solid #595959;
+}
+#text_box {
+    white-space:pre;
+    line-height: 2;
+    text-align: left;
+    padding: 15px 10px;
+}
