@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="Author" content="SALE">
     <title>CAT-RECODE</title>
-    <link rel="stylesheet" href="sale_page.css">
+    <link rel="stylesheet" href="CSS/sale_page.css">
     
 </head>
 <body>
@@ -32,53 +32,76 @@
     </header>
 
     <div id="setting">
-        <div id="sale_container">
-            
-            <!--상품 이미지-->
-            <div class="sale_img_layout">
-                <img class="sale_img" src="img/beatles-abbeyroad-square-reuters-applecorps.jpg" alt="상품 사진">
-            </div>
-
-            <!--우측 박스-->
-            <div id="sale_info_layout">
-                <div id="sale_info">    
-                    <h2>상품 이름</h3>
-                    <h1>000,000 원</h1>
-                </div>
-                <div id="info_wrapper">
-                    <div class="artist_box">
-                        <div class="info">아티스트</div>
-                        <div id="artist" class="info">비틀즈</div>
-                    </div>
-                    
-                    <div class="album_box">
-                        <div class="info">앨범</div>
-                        <div id="album" class="info">abbeyroad</div>
-                    </div>
-                    
-                    <div class="state_box">
-                        <div class="info">state</div>
-                        <div id="state" class="info">NM</div>
-                    </div>
-                </div>
-                <div id="btn_layout">
-                    <div id="wish" class="btn">
-                        <button>
-                            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTcuMDA1IDEuMDQ1aC4yMzNjLjI4LjIyOC41MzcuNDkuNzYyLjc3Ny4yMjUtLjI4OC40ODEtLjU0OS43NjItLjc3N2guMjMzYTYuMTYgNi4xNiAwIDAgMC0uMDktLjExM0M5LjY4NC4zNDQgMTAuNjI4IDAgMTEuNiAwIDE0LjA2NCAwIDE2IDIuMTEgMTYgNC43OTZjMCAzLjI5Ni0yLjcyIDUuOTgxLTYuODQgMTAuMDYyTDggMTZsLTEuMTYtMS4xNTFDMi43MiAxMC43NzcgMCA4LjA5MiAwIDQuNzk2IDAgMi4xMSAxLjkzNiAwIDQuNCAwYy45NzIgMCAxLjkxNi4zNDQgMi42OTUuOTMyYTYuMTYgNi4xNiAwIDAgMC0uMDkuMTEzeiIvPgo8L3N2Zz4K" width="16" height="16" alt="찜 아이콘">
-                            <span>찜</span>
-                        </button>
-                    </div>
-                    <div id="message" class="btn">
-                        <button>
-                            <img src="" alt="">
-                            <span>구매문의</span>
-                        </button>
-                    </div>
+        <div style="text-align:center;">
+            <div id="sale_container">
+                
+                <!--상품 이미지-->
+                <div class="sale_img_layout">
+                    <img class="sale_img" src="img/iu.jpg" alt="상품 사진">
                 </div>
 
+                <!--우측 박스-->
+                <div id="sale_info_layout">
+                    <div id="sale_info">    
+                        <h2>IU - LILAC</h3>
+                        <h1>60,000 원</h1>
+                    </div>
+                    <div id="info_wrapper">
+                        <div class="box_set">
+                            <div class="info">•아티스트</div>
+                            <div class="info">•앨범</div>
+                            <div class="info">•상태</div>
+                            <div class="info">•상점</div>
+                        </div>
+                        <div class="box_set">
+                            <div id="artist" class="info_main">비틀즈</div>
+                            <div id="album" class="info_main">abbeyroad</div>
+                            <div id="state" class="info_main">NM</div>
+                            <div id="user" class="info_main">쿠키네 테스트</div>
+                        </div>
+                    </div>
+
+                
+
+
+                    <div id="btn_layout">
+                        <div id="wish" class="btn">
+                            <button>
+                                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTcuMDA1IDEuMDQ1aC4yMzNjLjI4LjIyOC41MzcuNDkuNzYyLjc3Ny4yMjUtLjI4OC40ODEtLjU0OS43NjItLjc3N2guMjMzYTYuMTYgNi4xNiAwIDAgMC0uMDktLjExM0M5LjY4NC4zNDQgMTAuNjI4IDAgMTEuNiAwIDE0LjA2NCAwIDE2IDIuMTEgMTYgNC43OTZjMCAzLjI5Ni0yLjcyIDUuOTgxLTYuODQgMTAuMDYyTDggMTZsLTEuMTYtMS4xNTFDMi43MiAxMC43NzcgMCA4LjA5MiAwIDQuNzk2IDAgMi4xMSAxLjkzNiAwIDQuNCAwYy45NzIgMCAxLjkxNi4zNDQgMi42OTUuOTMyYTYuMTYgNi4xNiAwIDAgMC0uMDkuMTEzeiIvPgo8L3N2Zz4K" width="16" height="16" alt="찜 아이콘">
+                                <span>찜</span>
+                            </button>
+                        </div>
+                        <div id="message" class="btn">
+                            <button>
+                                <span>구매문의</span>
+                            </button>
+                        </div>
+                        <div>
+                            <div id="link_box">
+                                <button id="link">
+                                    <h3>상태 등급보는 방법</h3>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                
             </div>
         </div>
-
+        <div id="info_container">
+            <div id="box">
+                <div style="display: inline-block; text-align: center; width:945px">
+                    <div id= "title"><p>상품정보</p></div>                   
+                </div>
+                <div id="text_box">
+                    "US Release of 50th Anniversary Edition (Single LP) on 180 gram vinyl.
+                    New mix by Giles Martin and Sam OKell. 
+                    A very similar pressing by Optimal Media GmbH, as differentiated by the deadwax runouts, can be found here"
+                </div>
+            </div>
+        </div>
 
     </div>
 

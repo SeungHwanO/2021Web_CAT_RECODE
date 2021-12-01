@@ -8,7 +8,7 @@ index.html
 ㄴ누적 접속자 수, 판매 수 카운트 기능
 
 sale_page.html
-ㄴ
+ㄴ진행중
 
 my_page.html
 ㄴ판매상품
