@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="Author" content="SALE">
     <title>CAT-RECODE</title>
-    <link rel="stylesheet" href="CSS/sale_page.css">
+    <link rel="stylesheet" href="../CSS/sale_page.css">
     
 </head>
 <body>
-
     <header>
         <a id="a_logo" href="index.html" target="_blank">
-            <img id="title_logo" src="img/title_logo_white.PNG" alt="title logo">
+            <img id="title_logo" src="../img/title_logo_white.PNG" alt="title logo">
         </a>
         <ul id="z_index1" class="nav">
 
@@ -22,29 +21,45 @@
             <li><a class = "top_li" href="#artist">artist</a></li>
         
         </ul>
-          
-        
         <ul id="top_rg">
-            <li><a href=""><img src="img/message_icon.png" alt="메시지"></a></li>
-            <li><a href="login.html"><img src="img/user_icon.png" alt="유저 정보 네비게이션"></a></li>
+            <li><a href=""><img src="../img/message_icon.png" alt="메시지"></a></li>
+            <li><a href="login.html"><img src="../img/user_icon.png" alt="유저 정보 네비게이션"></a></li>
         </ul>
-
     </header>
+
 
     <div id="setting">
         <div style="text-align:center;">
             <div id="sale_container">
-                
-                <!--상품 이미지-->
-                <div class="sale_img_layout">
-                    <img class="sale_img" src="img/iu.jpg" alt="상품 사진">
+                <div id="slider-wrap">
+
+                    <ul id="slider">
+
+                        <!--상품 이미지 리스트-->
+                        <li><img src="../album_img/2/1.jpg"></li>
+                        <li><img src="../album_img/2/2.jpg"></li>
+                        <li><img src="../album_img/2/3.jpg"></li>
+                        <li><img src="../album_img/2/4.jpg"></li>
+
+
+                    </ul>
+
+                    <div class="slider-btns" id="next"><span>▶</span></div>
+                    <div class="slider-btns" id="previous"><span>◀</span></div>
+                    <div id="slider-pagination-wrap">
+                        <ul>
+                        </ul>
+                    </div>
                 </div>
 
-                <!--우측 박스-->
+                
                 <div id="sale_info_layout">
-                    <div id="sale_info">    
-                        <h2>IU - LILAC</h3>
-                        <h1>60,000 원</h1>
+                    <div id="sale_info">   
+
+                        <!--상품 이름, 가격-->
+                        <h2>Ariana Grande - Positions</h3>
+                        <h1>80,000 원</h1>
+
                     </div>
                     <div id="info_wrapper">
                         <div class="box_set">
@@ -54,16 +69,17 @@
                             <div class="info">•상점</div>
                         </div>
                         <div class="box_set">
-                            <div id="artist" class="info_main">비틀즈</div>
-                            <div id="album" class="info_main">abbeyroad</div>
-                            <div id="state" class="info_main">NM</div>
-                            <div id="user" class="info_main">쿠키네 테스트</div>
+
+
+                            <!--상품 정보-->
+                            <div id="artist" class="info_main">Ariana Grande</div>
+                            <div id="album" class="info_main">Positions</div>
+                            <div id="state" class="info_main">M</div>
+                            <div id="user" class="info_main">판매자1</div>
+
+
                         </div>
                     </div>
-
-                
-
-
                     <div id="btn_layout">
                         <div id="wish" class="btn">
                             <button>
@@ -84,7 +100,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
 
                 
@@ -95,19 +110,18 @@
                 <div style="display: inline-block; text-align: center; width:945px">
                     <div id= "title"><p>상품정보</p></div>                   
                 </div>
+
+                <!--상품 설명-->
                 <div id="text_box">
-                    "US Release of 50th Anniversary Edition (Single LP) on 180 gram vinyl.
-                    New mix by Giles Martin and Sam OKell. 
-                    A very similar pressing by Optimal Media GmbH, as differentiated by the deadwax runouts, can be found here"
+                    앨범 1주년을 기념하기 위해 Ariana Grande의 웹 스토어에서 제공됩니다.
+
+                    양각 레터링이 있는 블랙 컷아웃 슬립케이스에 들어 있는 게이트폴드 재킷으로 출시됩니다.
+                    크레딧이 포함된 풀 컬러 맞춤형 내부 슬리브, 스티커 시트 및 대형 접이식 포스터가 포함되어 있습니다.
                 </div>
             </div>
         </div>
 
     </div>
-
-    
-
-        
+    <script src="../js/slide.js"></script>
 </body>
 </html>
-
