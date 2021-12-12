@@ -68,6 +68,33 @@ ul {
 
 
 
+
+
+
+button { 
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+}
+
+#nav_layout {
+    position: static;
+}
+#nav_top {
+    display:inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+#nav_top h2 {
+    display: inline-block;
+    margin: 0;
+}
+#nav_top h3 {
+    display: inline-block;
+    margin: 0;
+    float: right;
+}
+
 #main_container {
     width: 100%;
     height: 1500px;
@@ -77,13 +104,42 @@ ul {
 #center_box {
     display: flex;
     width: 1024px;
-    height:100%;
-    margin: 0 auto;
-    align-items: center;
+    margin: 30px auto;
 }
 #background_img {
-    background-image:url(../user_porfile/1.jpeg);
+    background-image:url(../user_porfile/profile.png);
+    background-size: contain;
     display: inline-block;
-    width: 210px;
-    height: 210px;
+    width: 230px;
+    height: 230px;
+    margin: 0 15px;
 }
+#contents_layout {
+    display: inline-block;
+    position:absolute;
+}
+#nav_box {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    position: relative;
+    top: 110px;
+}
+#nav_box li {
+    display: inline-block;
+    margin: 10px 0;
+    border-left: 1px solid gray;
+}
+#nav_box button {
+    padding: 10px 55px;
+}
+#nav_box p {
+    font-size:20px;
+    margin: 0;
+}
+
+
+
+#item_box {
+    display: inline-block;
+    
+}
+/*찜 레이아웃 CSS*/
