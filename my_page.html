@@ -12,15 +12,7 @@
             <a id="a_logo" href="index.html" target="_blank">
                 <img id="title_logo" src="img/title_logo_white.PNG" alt="title logo">
             </a>
-            <ul id="z_index1" class="nav">
 
-                <li><a class = "top_li" href="about.html">about</a></li>
-                <li><a class = "top_li" href="#vinyl">vinyl</a></li>
-                <li><a class = "top_li" href="#cd">cd</a></li>
-                <li><a class = "top_li" href="#casette">casette</a></li>
-                <li><a class = "top_li" href="#artist">artist</a></li>
-            
-            </ul>
             
             
             <ul id="top_rg">
@@ -34,21 +26,39 @@
     <div id="main_container">
         <div id="center_box">
             <div id="user_layout">
-                <div id="background_img"><h2>테스트상점</h2></div>
-                <div id="btn_layout">
-                    <button>
-                        <span>문의하기</span>
-                    </button>
-                    <button>
-                        <span>판매하기</span>
-                    </button>
+                <div id="nav_layout">
+                <div id="background_img"></div>
+                <div id="contents_layout">
+                    <div id="nav_top">
+                        <h2>테스트 판매자1</h2>
+                        <a href=""><h3>상품등록</h3></a>
+                    </div>                    
+                    <div id="nav_box">
+                        <ul>
+                            <li style="border-left: none;"><button value="찜"><p style="margin-left: 20px; margin-right: 20px; ">찜</p></button></li>
+                            <li><button value="판매상품"><p>판매상품</p></button></li>
+                            <li><button value="거래요청"><p>거래요청</p></button></li>
+                            <li><button value="판매완료"><p>판매완료</p></button></li>
+                        </ul>
+                    </div>
                 </div>
+            </div>
             </div>
 
         </div>
         <div id="item_box">
+            <div id="like_contents">
+                <div class="like_item">
+                    <img src="album_img/1/1.jpg" alt="">
 
+                </div>
+            </div>
         </div>
     </div>
+    <script>
+        function changeIframeUrl(url){
+            document.getElementById("main_frame").src = url;
+        }
+    </script>
 </body>
 </body>

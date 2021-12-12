@@ -20,10 +20,10 @@
             <!--nav list-->
             <ul id="z_index1" class="nav">
                 <li><a class = "top_li" href="about.html">about</a></li>
-                <li><a class = "top_li" href="#vinyl">vinyl</a></li>
-                <li><a class = "top_li" href="#cd">cd</a></li>
-                <li><a class = "top_li" href="#casette">casette</a></li>
-                <li><a class = "top_li" href="#artist">artist</a></li>
+                <li><a class = "top_li" href="#" onclick="changeIframeUrl('vinyl.html')">vinyl</a></li>
+                <li><a class = "top_li" href="#" onclick="changeIframeUrl('cd.html')">cd</a></li>
+                <li><a class = "top_li" href="#casette" onclick="changeIframeUrl('casette.html')">casette</a></li>
+                <li><a class = "top_li" href="#artist" onclick="changeIframeUrl('artist.html')">artist</a></li>
             </ul>
             
             <!--icon 링크-->
@@ -196,7 +196,7 @@
 
             <!--iframe 상품 리스트 불러옴-->
             <div id = "item_list">
-                <iframe src="vinyl.html" width="100%" height="3000px"frameborder="0" scrolling="no" maginwidth="0" marginheight="0" frameborder="0" style="position: relative; left: 115px;"></iframe>
+                <iframe id="main_frame" src="vinyl.html" width="100%" height="3000px"frameborder="0" scrolling="no" maginwidth="0" marginheight="0" frameborder="0" style="position: relative; left: 115px;"></iframe>
             </div>
         </div>
     </div>
@@ -211,32 +211,10 @@
     
 
 
-    
-    <!--    firebase module - 사용 X
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyC0pYUkM_x19OTnuxeEae0ywC7K6ThmppI",
-          authDomain: "car-recode.firebaseapp.com",
-          projectId: "car-recode",
-          storageBucket: "car-recode.appspot.com",
-          messagingSenderId: "590058575495",
-          appId: "1:590058575495:web:11b6f408974557c5db8a22",
-          measurementId: "G-887NN57V9F"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
+    <script>
+        function changeIframeUrl(url){
+            document.getElementById("main_frame").src = url;
+        }
     </script>
-    -->
-
 </body>
 </html>

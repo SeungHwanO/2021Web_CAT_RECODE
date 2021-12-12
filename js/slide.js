@@ -32,14 +32,14 @@ slideWrapper.addEventListener('mouseover', function () {
     clearInterval(autoSlider);
 });
 
-/*  자동 슬라이드 넘김 기능
+
 slideWrapper.addEventListener('mouseleave', function () {
     this.classList.remove('active');
     autoSlider = setInterval(function () {
-        plusSlides(1);
+        plusSlides(0);
     }, 3000);
 });
-*/
+
 
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -77,5 +77,5 @@ function pagination() {
 
 pagination();
 var autoSlider = setInterval(function () {
-    plusSlides(1);
+    plusSlides(0);
 }, 3000);
