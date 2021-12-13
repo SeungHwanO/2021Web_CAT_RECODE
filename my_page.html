@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<body>
+<html>
 <head>
     <meta charset="UTF-8" />
     <meta name="Author" content="SALE">
@@ -30,35 +30,34 @@
                 <div id="background_img"></div>
                 <div id="contents_layout">
                     <div id="nav_top">
-                        <h2>테스트 판매자1</h2>
-                        <a href=""><h3>상품등록</h3></a>
+                        <h2>판매자1</h2>
+                        <a href="up.html"><h3>상품등록</h3></a>
                     </div>                    
                     <div id="nav_box">
                         <ul>
-                            <li style="border-left: none;"><button value="찜"><p style="margin-left: 20px; margin-right: 20px; ">찜</p></button></li>
-                            <li><button value="판매상품"><p>판매상품</p></button></li>
-                            <li><button value="거래요청"><p>거래요청</p></button></li>
-                            <li><button value="판매완료"><p>판매완료</p></button></li>
+                            <li style="border-left: none;"><button id="fav" value="찜" onclick="changeIframeUrl('my_page_iframe/like_contents.html')"><p style="margin-left: 20px; margin-right: 20px; ">찜</p></button></li>
+                            <li><button value="판매상품" onclick="changeIframeUrl('my_page_iframe/sale_contents.html')"><p>판매상품</p></button></li>
+                            <li><button value="거래요청" onclick="changeIframeUrl('my_page_iframe/deal_contents.html')"><p>거래요청</p></button></li>
+                            <li><button value="판매완료" onclick="changeIframeUrl('my_page_iframe/sold_out_contents.html')"><p>판매완료</p></button></li>
                         </ul>
                     </div>
                 </div>
             </div>
             </div>
 
-        </div>
-        <div id="item_box">
-            <div id="like_contents">
-                <div class="like_item">
-                    <img src="album_img/1/1.jpg" alt="">
 
-                </div>
+            
+            <div id="item_box">
+                <iframe id="like_contents_frame" src="my_page_iframe/like_contents.html" width="100%" height="3000px"frameborder="0" scrolling="no" maginwidth="0" marginheight="0" frameborder="0"></iframe>
+                
             </div>
         </div>
+        
     </div>
     <script>
         function changeIframeUrl(url){
-            document.getElementById("main_frame").src = url;
+            document.getElementById("like_contents_frame").src = url;
         }
     </script>
 </body>
-</body>
+</html>
