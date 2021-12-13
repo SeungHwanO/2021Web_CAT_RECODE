@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+#main_layout {
+    width: 1024px;
+    display: inline-block;
+}
+.laber {
+    display: block;
+    padding: 5px;
+}
+.span {
+    display: inline-block;
+    width:65px;
+    text-align: right;
+    padding: 10px;
+}
+#box {
+    display: inline-block;
+    position: relative;
+    left: 0;
+    
+}
+textarea {
+    resize: none;
+    height: 140px;
+    width: 320px;
+    position: relative;
+    left: 30px;
+}

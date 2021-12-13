@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Author" content="SALE">
+    <title>CAT-RECODE</title>
+    <link rel="stylesheet" href="CSS/up.css">
+</head>
+<body>
+    <div id="main_layout">
+        <h3>상품 등록하기</h3>
+        <hr>
+        <form action="my_page.html" enctype="multipart/form-data">
+            
+                <laber class="laber">
+                    <input type="radio" name="chk_info" value="vinyl">vinyl
+                    <input type="radio" name="chk_info" value="cd">cd
+                    <input type="radio" name="chk_info" value="casette">casette
+                    <input type="radio" name="chk_info" value="artist">artist
+                </laber>
+                <laber class="laber">
+                    <span class="span"></span><input type="file" name="uploadfiles" placeholder="파일 선택" multiple/>
+                </laber>
+                <div id="box">
+                <laber class="laber">
+                    <span class="span">상품명</span><input type="text" placeholder="가수명 - 음반">
+                </laber>
+                <laber class="laber">
+                    <span class="span">가격</span><input type="text" placeholder="숫자만 입력해주세요.">
+                </laber>
+                <laber class="laber">
+                    <span class="span">아티스트</span><input type="text" placeholder="아티스트">
+                </laber>
+                <laber class="laber">
+                    <span class="span">앨범</span><input type="text" placeholder="앨범">
+                </laber>
+                <laber class="laber">
+                    <span class="span">상태</span><input type="text" placeholder="M  NM EX VG+ VG G P">
+                </laber>
+            </div>
+            <laber class="laber">
+                <textarea placeholder="상품설명"></textarea>
+            </laber>
+            <laber class="laber">
+                <span class="span"></span><input type="submit" value="등록하기" onclick="document.location.href='my_page.html'">
+            </laber>
+        </form>
+    </div>
+    <script>
+        var dropFile = function(event) {
+            event.preventDefault();
+        }
+    </script>
+</body>
+</html>
