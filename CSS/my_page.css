@@ -102,7 +102,6 @@ button {
     top: -4px;
 }
 #center_box {
-    display: flex;
     width: 1024px;
     margin: 30px auto;
 }
@@ -130,6 +129,7 @@ button {
 }
 #nav_box button {
     padding: 10px 55px;
+    cursor: pointer;
 }
 #nav_box p {
     font-size:20px;
@@ -140,6 +140,53 @@ button {
 
 #item_box {
     display: inline-block;
-    
+    width: 850px;
+    height: 1500px;
+    padding: 7px;
+    margin: 30px 80px;
+    border: 1px solid #000000;
 }
-/*찜 레이아웃 CSS*/
+/*iframe CSS*/
+.like_item {
+    padding: 5px 2px;
+    margin: 3px 0;
+    border-bottom: 1px solid gray;
+    position: static;
+}
+.like_item > img {
+    width: 100px;
+    height: 100px;
+}
+.item_info {
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+}
+.item_info p {
+    margin: 0;
+    margin-bottom: 5px
+}
+.p1 {
+    font-style: b;
+}
+.item_info_rg {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.item_info_rg p {
+    margin: 0 10px;
+    font-size: 14px;
+}
+.activity_btn {
+    display: inline-block;
+    margin: 0 10px;
+}
+.activity_btn button {
+    cursor: pointer;
+    background: #f2f2f2;
+    color: #1D1D1D;
+}
+.deal {
+    color: #f70000;   
+}
