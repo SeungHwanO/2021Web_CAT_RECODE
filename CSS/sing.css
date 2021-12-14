@@ -102,7 +102,6 @@ body {
     width:80%;
     height:40px;
     background: #1D1D1D;
-    /*background: linear-gradient(125deg,#81ecec,#6c5ce7,#81ecec);*/
     background-position: left;
     background-size: 200%;
     color:white;
@@ -114,7 +113,6 @@ body {
 }
 
 .btn:hover {
-    /*background-position: right;*/
     background: rgb(182, 182, 182);
     color: #1D1D1D;
 }

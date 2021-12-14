@@ -5,16 +5,16 @@ body {
 
 #logo_box {
     display: block;
-    text-align: left;
+    text-align: center;
     
 }
 #logo_box img {
-    width: 370px;
+    width: 300px;
 }
 #radius_box { 
     width: 90%;
     height: 85%;
-    background-color: #f2f2f2;
+    background-color: #fff;
     border: 3px solid rgb(75, 75, 75);
     border-radius: 15px;
     margin: auto;
@@ -22,4 +22,21 @@ body {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+#text_layout {
+    text-align: center;
+}
+#text_layout p {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.33;
+    margin: 0;
+}
+#idmolra {
+    margin: 30px;
+    text-align: center;
+}
+#idmolra img {
+    width: 1000px;
+    height: 450px;
 }

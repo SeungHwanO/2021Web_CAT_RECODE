@@ -1,0 +1,107 @@
+body {
+    text-align: center;
+    background-color: #333333;
+}
+#contents_box {
+    position:absolute;
+    width: 95%;
+    height:95%;
+    padding: 30px, 20px;
+    background-color:#FFFFFF;
+    text-align:center;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+}
+form {
+    
+}
+#contents_box > img {
+    width: 360px;
+    float: left;
+}
+
+label {
+    display: inline-block;
+    border-bottom: 2px solid #adadad;
+    margin: 15px 30px;
+    padding: 10px 10px;
+    text-align: left;
+}
+.text {
+    width: auto;
+    border: none;
+    outline: none;
+    color: #636e72;
+    font-size: 16px;
+    height: 25px;
+    background: none;
+}
+
+
+#item_box{
+    display: block;
+    width: 95%;
+    height: 79%;
+    padding: 7px;
+    margin: 42px 26px;
+}
+
+
+#frame_set {
+    text-align: left;
+}
+.item {
+    padding: 5px 2px;
+    margin: 3px 0;
+    border-bottom: 1px solid gray;
+    position: static;
+}
+.item > img {
+    width: 100px;
+    height: 100px;
+}
+.item_info {
+    display: inline-block;
+    margin-left: 10px;
+    position: absolute;
+}
+.item_info p {
+    margin: 0;
+    margin-bottom: 5px
+}
+.p1 {
+    font-style: b;
+}
+.item_info_rg {
+    display: inline-block;
+    float: right;
+    text-align: right;
+}
+.item_info_rg p {
+    margin: 0 10px;
+    font-size: 14px;
+}
+.activity_btn {
+    display: inline-block;
+    margin: 0 10px;
+}
+#btn {
+    position: relative;
+    left: 10%;
+    transform: translateX(-50%);
+    background: #1D1D1D;
+    background-position: left;
+    background-size: 200%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+}
+#btn:hover {
+    background: rgb(182, 182, 182);
+    color: #1D1D1D;
+}

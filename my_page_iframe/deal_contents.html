@@ -25,9 +25,8 @@
                 <button type="button" onclick="window.open('../sale_pages/2.html')">
                     상품페이지이동
                 </button>
-                <button type="button" class="deal_btn" style="color: #f70000;">
-                    거래하기
-                </button>
+                <input id="btn" type="button" class="deal_btn" style="color: #f70000;" onclick="activity(), window.open('../sale_approval.html')" value="입금확인"/>
+                   
                 
             </div>
         </div>
@@ -49,11 +48,15 @@
                 <button type="button" onclick="window.open('../sale_pages/2.html')">
                     상품페이지이동
                 </button>
-                <button type="button" class="deal_btn" style="color: #f70000;">
-                    거래하기
-                </button>
+                <input id="btn" type="button" class="deal_btn" style="color: #f70000;" onclick="activity(), window.open('../sale_approval.html')" value="입금확인"/>
                 
             </div>
         </div>
     </div>
+    <script>
+        function activity() {
+            const btnElement = document.getElementById("btn");
+            btnElement.value = "입금확인";
+        }
+    </script>
 </body>
