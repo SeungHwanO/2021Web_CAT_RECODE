@@ -190,3 +190,8 @@ button {
 .deal {
     color: #f70000;   
 }
+#btn {
+    border: 0;
+    outline: 0;
+    background-color: #f2f2f2;
+}

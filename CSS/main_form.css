@@ -1,0 +1,61 @@
+#frame_set {
+    text-align: center;
+}
+img {
+    width: 100px;
+    height: 100px;
+}
+#center {
+    display: inline-block;
+}
+#info_box {
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    font-size:20px;
+}
+#sale_info_name {
+    display: inline-block;
+    text-align: right;
+    position: relative;
+    top: 0;
+    font-weight: bold;
+}
+#sale_info {
+    display: inline-block;
+    text-align: left;
+    position: relative;
+    top: 0;
+}
+#item_info {
+    font-size: 18px;
+}
+#buy_info {
+    text-align: center;
+}
+
+#btn {
+    margin-top: 15px;
+    width: 10%;
+    height: 40px;
+    background: #1D1D1D;
+    background-position: left;
+    background-size: 200%;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    display: inline;
+}
+#btn:hover {
+    background: rgb(182, 182, 182);
+    color: #1D1D1D;
+}
+span {
+    display: block;
+}
+input {
+    width: 25%;
+    text-align: center;
+}
