@@ -58,4 +58,14 @@ span {
 input {
     width: 25%;
     text-align: center;
+    margin: 5px 0;
+}
+.radio {
+    width: 15px;
+}
+textarea {
+    resize: none;
+    height: 100px;
+    width: 286px;
+    margin-top: 5px;
 }
