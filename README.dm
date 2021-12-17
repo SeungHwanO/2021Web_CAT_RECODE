@@ -1,20 +1,28 @@
-index.html
-ㄴ상품 카테고리별 새로운 상품 리스트
- ㄴ상품 리스트 부분 iframe 기능
- ㄴindex.html 복사
-ㄴ로그인 아이콘 기능 보완
- ㄴ네비게이션 리스트 구현
-ㄴ검색 기능
-ㄴ누적 접속자 수, 판매 수 카운트 기능
+메인페이지 index.html
 
-sale_page.html
-ㄴ진행중
+마이페이지
+ㄴ찜리스트
+ㄴ상품등록
+ㄴ판매상품리스트
+ㄴ거래완료리스트
+ㄴ(판매자)구매요청리스트(승인하기)
 
-my_page.html
-ㄴ판매상품
-ㄴ구매문의
-ㄴ찜상품
-ㄴ구매상품
+상품등록페이지 up.html
+ㄴ상품이미지
+ㄴ상품명
+ㄴ가격
+ㄴ아티스트, 앨범, 상태 정보
+ㄴ상품정보(설명)
+ㄴ등록하기버튼
 
-https://youtu.be/iKlWaUszxB4
-https://saintsilver.github.io/components/view/carousel.html
+(판매자)거래승인페이지 sale_approval.html
+ㄴ입금받을 계좌정보
+ㄴ판매자 이름
+
+(구매자)거래페이지(거래 승인 후) buy_page.html
+ㄴ구매자 성명
+ㄴ상품수령주소입력
+
+상품정보페이지 sale_pages(num.html)
+
+소개페이지 about.html
